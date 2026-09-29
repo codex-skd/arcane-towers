@@ -35,7 +35,7 @@ Autenticación Upload: cabecera `X-Api-Token`. Core: cabecera `x-api-key`.
 | `neoforge_version` (loader) | `21.1.249` |
 | `framework` | `neoforge` |
 | `java_version` | `21` |
-| `version` (`gradle.properties`) | `0.0.0` |
+| `version` (`gradle.properties`) | `0.0.0-beta.1` |
 | `environment` | `Client`, `Server` (requerido en ambos) |
 
 ## Rama
@@ -46,7 +46,7 @@ minecraft/1.21.1/neoforge-21.1.249/production
 
 ## Tag
 
-Formato: `<mc-version>-<framework>-<version>`. Actual: `1.21.1-neoforge-0.0.0`.
+Formato: `<mc-version>-<framework>-<version>`. Actual: `1.21.1-neoforge-beta.1`.
 
 ### IDs de `gameVersions` para 1.21.1 (verificados, mismos que el resto de mods 1.21.1 del workspace)
 
