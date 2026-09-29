@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "minecraft:block/polished_blackstone",
+    "stone": "minecraft:block/polished_blackstone",
+    "rune": "minecraft:block/amethyst_block"
+  },
+  "elements": [
+    {
+      "from": [4, 0, 4],
+      "to": [12, 14, 12],
+      "faces": {
+        "down": { "uv": [4, 4, 12, 12], "texture": "#stone" },
+        "up": { "uv": [4, 4, 12, 12], "texture": "#stone" },
+        "north": { "uv": [4, 2, 12, 16], "texture": "#stone" },
+        "south": { "uv": [4, 2, 12, 16], "texture": "#stone" },
+        "west": { "uv": [4, 2, 12, 16], "texture": "#stone" },
+        "east": { "uv": [4, 2, 12, 16], "texture": "#stone" }
+      }
+    }
+  ]
+}

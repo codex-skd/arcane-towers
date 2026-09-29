@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "arcane_towers:stone_tower",
+      "weight": 1
+    },
+    {
+      "structure": "arcane_towers:frost_tower",
+      "weight": 1
+    },
+    {
+      "structure": "arcane_towers:sandstone_tower",
+      "weight": 1
+    },
+    {
+      "structure": "arcane_towers:umbral_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 739104522,
+    "spacing": 48,
+    "separation": 16
+  }
+}

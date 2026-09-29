@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "half=lower,facing=north": { "model": "arcane_towers:block/exit_stone_lower" },
+    "half=lower,facing=east": { "model": "arcane_towers:block/exit_stone_lower", "y": 90 },
+    "half=lower,facing=south": { "model": "arcane_towers:block/exit_stone_lower", "y": 180 },
+    "half=lower,facing=west": { "model": "arcane_towers:block/exit_stone_lower", "y": 270 },
+    "half=upper,facing=north": { "model": "arcane_towers:block/exit_stone_upper" },
+    "half=upper,facing=east": { "model": "arcane_towers:block/exit_stone_upper", "y": 90 },
+    "half=upper,facing=south": { "model": "arcane_towers:block/exit_stone_upper", "y": 180 },
+    "half=upper,facing=west": { "model": "arcane_towers:block/exit_stone_upper", "y": 270 }
+  }
+}
