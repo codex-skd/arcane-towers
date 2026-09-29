@@ -1,0 +1,46 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+displayURL="https://gitlab.com/stalking-dragons/minecraft/arcane-towers"
+logoFile="icon.png"
+credits="Developed by Stalking Dragons"
+description='''Arcane Towers adds four arcane tower dungeons to the overworld, one per biome family. Climb each tower floor by floor around its sealed central shaft, drop down the shaft into the dungeon below, defeat its guardian and use the Exit Stone to escape. Towers stay sealed (no mining or building) until their Exit Stone is used. Inhabited by Majestic Bestiary creatures.'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+[[dependencies.${mod_id}]]
+    modId="expedition_core"
+    type="required"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="majestic_bestiary"
+    type="required"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.${mod_id}]]
+    modId="geckolib"
+    type="required"
+    ordering="AFTER"
+    side="BOTH"
+
