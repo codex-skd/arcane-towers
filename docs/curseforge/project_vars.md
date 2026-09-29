@@ -1,9 +1,9 @@
 # CurseForge — Variables del proyecto
 
-> Leído por `../../../codex-docs/scripts/curseforge-upload.ps1`. Proyecto **pendiente de crear** en CurseForge.
+> Leído por `../../../codex-docs/scripts/curseforge-upload.ps1`. Proyecto creado en CurseForge (ID `1718216`, 2026-09-29).
 
 ```
-project_id = 
+project_id = 1718216
 api_token = ee776b0a-ee95-4850-b554-06be02a8657f
 game_versions = 9638, 9639, 11779, 10150
 release_type = beta
@@ -14,7 +14,7 @@ relations = expedition-core:requiredDependency,majestic-bestiary:requiredDepende
 
 | Variable | Valor |
 |---|---|
-| `curseforge_project_id` | *(pendiente)* |
+| `curseforge_project_id` | `1718216` |
 | `mod_id` | `arcane_towers` |
 | `display_name` | `Arcane Towers` |
 
@@ -75,8 +75,8 @@ logo = imagen generada con el prompt dado en la sesión del 2026-09-28.
 
 ## Flujo completo (primera vez)
 
-1. Crear el proyecto en la web CurseForge — **pendiente del usuario**.
-2. Copiar `project_id` aquí y en `gradle.properties`.
+1. **[hecho]** Proyecto creado en la web CurseForge (`1718216`).
+2. **[hecho]** `project_id` aquí y en `gradle.properties`.
 3. Pegar `docs/curseforge/project_description.md` en Edit Project → Description — **pendiente del usuario**.
 4. Subir el logo (`docs/curseforge/logo.png`) — **pendiente del usuario** (sin API).
 5. `./gradlew clean build`.
