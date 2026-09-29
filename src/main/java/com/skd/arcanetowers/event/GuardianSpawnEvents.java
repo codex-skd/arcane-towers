@@ -2,8 +2,11 @@ package com.skd.arcanetowers.event;
 
 import com.skd.arcanetowers.ArcaneTowers;
 import com.skd.arcanetowers.world.GuardianData;
+import com.skd.expeditioncore.protection.StructureProtection;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
+import java.util.Set;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -44,6 +47,9 @@ public final class GuardianSpawnEvents {
     private static final ResourceLocation GUARDIAN_BONUS_ID =
             ResourceLocation.fromNamespaceAndPath(ArcaneTowers.MOD_ID, "guardian_bonus");
 
+    /** Structure id + start chunk pos of every tower start whose end-hall check has already run. */
+    private static final Set<Long> END_HALL_VERIFIED = new HashSet<>();
+
     /** Tower id -> guardian entity id (majestic_bestiary). */
     private static final List<TowerGuardian> TOWERS = List.of(
             new TowerGuardian("stone_tower", "tauren"),
@@ -76,6 +82,7 @@ public final class GuardianSpawnEvents {
             }
             Optional<BoundingBox> endBox = findPieceBox(start, tower.id() + "/dungeon_end");
             if (endBox.isEmpty()) {
+                ensureUnsealed(serverLevel, pos, tower, start);
                 continue;
             }
             BoundingBox box = endBox.get();
@@ -152,6 +159,22 @@ public final class GuardianSpawnEvents {
             }
         }
         return new BlockPos(x, box.minY() + 1, z);
+    }
+
+    /**
+     * Safety net for a tower start that generated without its {@code dungeon_end} hall: unseals it so the
+     * player is never trapped. Each start is checked at most once (either outcome) per server lifetime.
+     */
+    private static void ensureUnsealed(ServerLevel level, BlockPos pos, TowerGuardian tower, StructureStart start) {
+        long startKey = start.getChunkPos().toLong() * 31L + tower.id().hashCode();
+        if (!END_HALL_VERIFIED.add(startKey)) {
+            return;
+        }
+        boolean newlyUnlocked = StructureProtection.unlockAt(level, pos, tower.key());
+        if (newlyUnlocked) {
+            ArcaneTowers.LOGGER.info("Tower {} at {} generated without its end hall; unsealed as a safety net.",
+                    tower.id(), start.getChunkPos());
+        }
     }
 
     /**

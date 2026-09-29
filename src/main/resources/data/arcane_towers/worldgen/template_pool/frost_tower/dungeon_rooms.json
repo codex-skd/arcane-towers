@@ -1,5 +1,5 @@
 {
-  "fallback": "minecraft:empty",
+  "fallback": "arcane_towers:frost_tower/dead_ends",
   "elements": [
     {
       "element": {
@@ -8,7 +8,7 @@
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 3
     },
     {
       "element": {
@@ -17,7 +17,7 @@
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 2
+      "weight": 4
     },
     {
       "element": {
@@ -26,7 +26,7 @@
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 1
+      "weight": 3
     },
     {
       "element": {
@@ -35,7 +35,7 @@
         "processors": "minecraft:empty",
         "projection": "rigid"
       },
-      "weight": 1
+      "weight": 2
     }
   ]
 }

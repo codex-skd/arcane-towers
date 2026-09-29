@@ -4,7 +4,7 @@
     {
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "arcane_towers:sandstone_tower/dungeon_end",
+        "location": "arcane_towers:stone_tower/dead_end",
         "processors": "minecraft:empty",
         "projection": "rigid"
       },

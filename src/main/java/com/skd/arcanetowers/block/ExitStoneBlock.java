@@ -2,7 +2,9 @@ package com.skd.arcanetowers.block;
 
 import com.skd.arcanetowers.ArcaneTowers;
 import com.skd.expeditioncore.protection.StructureProtection;
+import java.util.EnumMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import javax.annotation.Nullable;
 import net.minecraft.core.BlockPos;
@@ -44,6 +46,7 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
 /**
@@ -58,8 +61,22 @@ public class ExitStoneBlock extends Block {
     public static final EnumProperty<DoubleBlockHalf> HALF = BlockStateProperties.DOUBLE_BLOCK_HALF;
     public static final EnumProperty<Direction> FACING = BlockStateProperties.HORIZONTAL_FACING;
 
-    private static final VoxelShape LOWER_SHAPE = Block.box(3.0, 0.0, 3.0, 13.0, 16.0, 13.0);
-    private static final VoxelShape UPPER_SHAPE = Block.box(4.0, 0.0, 4.0, 12.0, 14.0, 12.0);
+    private static final double[][] LOWER_BOXES_NORTH = {
+            {7.25, 0.0, 6.5, 8.75, 3.0, 9.5},
+            {6.6, 3.0, 5.6, 9.9, 8.0, 10.4},
+            {6.41, 6.97, 5.2, 13.31, 13.65, 10.8},
+            {6.2, 12.5, 5.2, 12.8, 16.0, 10.8}
+    };
+
+    private static final double[][] UPPER_BOXES_NORTH = {
+            {6.2, 0.0, 5.2, 12.8, 3.5, 10.8},
+            {7.64, 1.81, 5.6, 15.66, 9.73, 10.4},
+            {10.0, 8.5, 6.0, 14.0, 13.5, 10.0},
+            {11.6, 12.48, 6.8, 15.25, 16.0, 9.6}
+    };
+
+    private static final Map<Direction, VoxelShape> LOWER_SHAPES = buildShapes(LOWER_BOXES_NORTH);
+    private static final Map<Direction, VoxelShape> UPPER_SHAPES = buildShapes(UPPER_BOXES_NORTH);
 
     /** The four tower structure keys, in lookup order. */
     private static final List<Tower> TOWERS = List.of(
@@ -83,7 +100,42 @@ public class ExitStoneBlock extends Block {
 
     @Override
     protected VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
-        return state.getValue(HALF) == DoubleBlockHalf.LOWER ? LOWER_SHAPE : UPPER_SHAPE;
+        Map<Direction, VoxelShape> shapes =
+                state.getValue(HALF) == DoubleBlockHalf.LOWER ? LOWER_SHAPES : UPPER_SHAPES;
+        return shapes.get(state.getValue(FACING));
+    }
+
+    private static Map<Direction, VoxelShape> buildShapes(double[][] boxes) {
+        Map<Direction, VoxelShape> shapes = new EnumMap<>(Direction.class);
+        shapes.put(Direction.NORTH, makeShape(boxes, 0));
+        shapes.put(Direction.EAST, makeShape(boxes, 1));
+        shapes.put(Direction.SOUTH, makeShape(boxes, 2));
+        shapes.put(Direction.WEST, makeShape(boxes, 3));
+        return shapes;
+    }
+
+    private static VoxelShape makeShape(double[][] boxes, int clockwiseSteps) {
+        VoxelShape shape = Shapes.empty();
+        for (double[] box : boxes) {
+            double x1 = box[0];
+            double y1 = box[1];
+            double z1 = box[2];
+            double x2 = box[3];
+            double y2 = box[4];
+            double z2 = box[5];
+            for (int step = 0; step < clockwiseSteps; step++) {
+                double nx1 = 16.0 - z1;
+                double nz1 = x1;
+                double nx2 = 16.0 - z2;
+                double nz2 = x2;
+                x1 = Math.min(nx1, nx2);
+                x2 = Math.max(nx1, nx2);
+                z1 = Math.min(nz1, nz2);
+                z2 = Math.max(nz1, nz2);
+            }
+            shape = Shapes.or(shape, Block.box(x1, y1, z1, x2, y2, z2));
+        }
+        return shape;
     }
 
     @Nullable
