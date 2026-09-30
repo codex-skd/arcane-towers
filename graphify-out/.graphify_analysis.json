@@ -1,0 +1,282 @@
+{
+  "communities": {
+    "0": [
+      "entitytype",
+      "mob",
+      "post",
+      "resourcelocation",
+      "src_main_java_com_skd_arcanetowers_event_guardianspawnevents",
+      "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_guardianspawnevents",
+      "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_guardianspawnevents_applybosstraits",
+      "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_guardianspawnevents_ensureunsealed",
+      "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_guardianspawnevents_findpiecebox",
+      "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_guardianspawnevents_floorcentre",
+      "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_guardianspawnevents_guardianspawnevents",
+      "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_guardianspawnevents_onplayertick",
+      "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_guardianspawnevents_spawnmob",
+      "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_guardianspawnevents_tryspawn",
+      "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_java_blockpos",
+      "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_java_boundingbox",
+      "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_java_player",
+      "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_java_resourcekey",
+      "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_java_serverlevel",
+      "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_java_structure",
+      "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_java_structurestart",
+      "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_towerguardian",
+      "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_towerguardian_key",
+      "suppresswarnings"
+    ],
+    "1": [
+      "blockitem",
+      "blocks",
+      "creativemodetab",
+      "deferredblock",
+      "deferredholder",
+      "deferreditem",
+      "deferredregister",
+      "items",
+      "src_main_java_com_skd_arcanetowers_block_modblocks",
+      "src_main_java_com_skd_arcanetowers_block_modblocks_java_ieventbus",
+      "src_main_java_com_skd_arcanetowers_block_modblocks_modblocks",
+      "src_main_java_com_skd_arcanetowers_block_modblocks_modblocks_modblocks",
+      "src_main_java_com_skd_arcanetowers_block_modblocks_modblocks_register",
+      "src_main_java_com_skd_arcanetowers_modcreativetabs",
+      "src_main_java_com_skd_arcanetowers_modcreativetabs_java_ieventbus",
+      "src_main_java_com_skd_arcanetowers_modcreativetabs_modcreativetabs",
+      "src_main_java_com_skd_arcanetowers_modcreativetabs_modcreativetabs_modcreativetabs",
+      "src_main_java_com_skd_arcanetowers_modcreativetabs_modcreativetabs_register"
+    ],
+    "2": [
+      "api_tokens",
+      "branch",
+      "client_server_env",
+      "dependencies",
+      "exit_stone_runes_texture",
+      "exit_stone_texture",
+      "game_versions_ids",
+      "icon",
+      "logo",
+      "mod_info",
+      "project",
+      "project_description",
+      "tag",
+      "version_info"
+    ],
+    "3": [
+      "block",
+      "blockgetter",
+      "blockstate",
+      "builder",
+      "collisioncontext",
+      "itemstack",
+      "levelreader",
+      "livingentity",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock_cansurvive",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock_copywaterloggedfrom",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock_createblockstatedefinition",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock_getshape",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock_setplacedby",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_java_override"
+    ],
+    "4": [
+      "compoundtag",
+      "factory",
+      "provider",
+      "saveddata",
+      "src_main_java_com_skd_arcanetowers_world_guardiandata",
+      "src_main_java_com_skd_arcanetowers_world_guardiandata_guardiandata",
+      "src_main_java_com_skd_arcanetowers_world_guardiandata_guardiandata_factory",
+      "src_main_java_com_skd_arcanetowers_world_guardiandata_guardiandata_guardiandata",
+      "src_main_java_com_skd_arcanetowers_world_guardiandata_guardiandata_isspawned",
+      "src_main_java_com_skd_arcanetowers_world_guardiandata_guardiandata_load",
+      "src_main_java_com_skd_arcanetowers_world_guardiandata_guardiandata_markspawned",
+      "src_main_java_com_skd_arcanetowers_world_guardiandata_guardiandata_save",
+      "src_main_java_com_skd_arcanetowers_world_guardiandata_java_override"
+    ],
+    "5": [
+      "eventbussubscriber",
+      "gatherdataevent",
+      "languageprovider",
+      "packoutput",
+      "src_main_java_com_skd_arcanetowers_datagen_datagenerators",
+      "src_main_java_com_skd_arcanetowers_datagen_datagenerators_arcanelang",
+      "src_main_java_com_skd_arcanetowers_datagen_datagenerators_arcanelang_addtranslations",
+      "src_main_java_com_skd_arcanetowers_datagen_datagenerators_arcanelang_arcanelang",
+      "src_main_java_com_skd_arcanetowers_datagen_datagenerators_datagenerators",
+      "src_main_java_com_skd_arcanetowers_datagen_datagenerators_datagenerators_datagenerators",
+      "src_main_java_com_skd_arcanetowers_datagen_datagenerators_datagenerators_ongatherdata",
+      "src_main_java_com_skd_arcanetowers_datagen_datagenerators_java_override",
+      "subscribeevent"
+    ],
+    "6": [
+      "direction",
+      "doubleblockhalf",
+      "enumproperty",
+      "levelaccessor",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock_buildshapes",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock_exitstoneblock",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock_makeshape",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock_towers",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock_updateshape",
+      "voxelshape"
+    ],
+    "7": [
+      "logger",
+      "mod",
+      "modcontainer",
+      "src_main_java_com_skd_arcanetowers_arcanetowers",
+      "src_main_java_com_skd_arcanetowers_arcanetowers_arcanetowers",
+      "src_main_java_com_skd_arcanetowers_arcanetowers_arcanetowers_arcanetowers",
+      "src_main_java_com_skd_arcanetowers_arcanetowers_arcanetowers_towerkey",
+      "src_main_java_com_skd_arcanetowers_arcanetowers_arcanetowers_towerkeys",
+      "src_main_java_com_skd_arcanetowers_arcanetowers_java_ieventbus",
+      "src_main_java_com_skd_arcanetowers_arcanetowers_java_resourcekey",
+      "src_main_java_com_skd_arcanetowers_arcanetowers_java_structure"
+    ],
+    "8": [
+      "blockhitresult",
+      "interactionresult",
+      "serverplayer",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock_locatetower",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock_spawnparticles",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock_teleporttoentrance",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock_usewithoutitem",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_java_blockpos",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_java_serverlevel"
+    ],
+    "9": [
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock_findtowerpiecebox",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_java_boundingbox",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_java_resourcekey",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_java_structure",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_java_structurestart",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_located",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_tower",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_tower_key"
+    ],
+    "10": [
+      "gradlew",
+      "gradlew__entry",
+      "gradlew_die",
+      "gradlew_warn"
+    ],
+    "11": [
+      "level",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock_playerwilldestroy",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock_preventdropfrombottompart",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_java_player"
+    ],
+    "12": [
+      "blockplacecontext",
+      "nullable",
+      "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock_getstateforplacement"
+    ],
+    "13": [
+      "build"
+    ],
+    "14": [
+      "settings"
+    ]
+  },
+  "cohesion": {
+    "0": 0.19202898550724637,
+    "1": 0.16993464052287582,
+    "2": 0.14285714285714285,
+    "3": 0.1978021978021978,
+    "4": 0.21794871794871795,
+    "5": 0.23076923076923078,
+    "6": 0.2727272727272727,
+    "7": 0.36363636363636365,
+    "8": 0.3611111111111111,
+    "9": 0.4166666666666667,
+    "10": 0.8333333333333334,
+    "11": 0.8333333333333334,
+    "12": 0.6666666666666666,
+    "13": 1.0,
+    "14": 1.0
+  },
+  "gods": [
+    {
+      "id": "src_main_java_com_skd_arcanetowers_block_exitstoneblock_exitstoneblock",
+      "label": "ExitStoneBlock",
+      "degree": 26
+    },
+    {
+      "id": "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_guardianspawnevents",
+      "label": "GuardianSpawnEvents",
+      "degree": 11
+    },
+    {
+      "id": "src_main_java_com_skd_arcanetowers_block_modblocks_modblocks",
+      "label": "ModBlocks",
+      "degree": 9
+    },
+    {
+      "id": "src_main_java_com_skd_arcanetowers_world_guardiandata_guardiandata",
+      "label": "GuardianData",
+      "degree": 8
+    },
+    {
+      "id": "src_main_java_com_skd_arcanetowers_block_exitstoneblock_located",
+      "label": "Located",
+      "degree": 7
+    },
+    {
+      "id": "src_main_java_com_skd_arcanetowers_arcanetowers_arcanetowers",
+      "label": "ArcaneTowers",
+      "degree": 6
+    },
+    {
+      "id": "src_main_java_com_skd_arcanetowers_modcreativetabs_modcreativetabs",
+      "label": "ModCreativeTabs",
+      "degree": 6
+    },
+    {
+      "id": "src_main_java_com_skd_arcanetowers_block_exitstoneblock_tower",
+      "label": "Tower",
+      "degree": 5
+    },
+    {
+      "id": "src_main_java_com_skd_arcanetowers_event_guardianspawnevents_towerguardian",
+      "label": "TowerGuardian",
+      "degree": 5
+    },
+    {
+      "id": "src_main_java_com_skd_arcanetowers_datagen_datagenerators_datagenerators",
+      "label": "DataGenerators",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "ModBlocks",
+      "target": "ExitStoneBlock",
+      "source_files": [
+        "src/main/java/com/skd/arcanetowers/block/ModBlocks.java",
+        "src/main/java/com/skd/arcanetowers/block/ExitStoneBlock.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `ExitStoneBlock` connect `Exit Stone` to `Mod Blocks`, `Block Properties`, `Block Interaction`, `Tower Location`, `Player Interactions`, `Block Placement`?",
+      "why": "High betweenness centrality (0.112) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `ModBlocks` connect `Mod Blocks` to `Exit Stone`?",
+      "why": "High betweenness centrality (0.063) - this node is a cross-community bridge."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Project Info` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected."
+    }
+  ]
+}
