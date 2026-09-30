@@ -53,6 +53,8 @@
 <tr><td><strong>Umbral Tower</strong></td><td>Dark forests and swamps</td><td>Guarded by a <strong>Mountain Giant</strong></td></tr>
 </table>
 
+<blockquote><strong>Where to find them:</strong> each tower only rises in a <strong>wide</strong> area of its own biome, and <strong>never next to another structure</strong> &mdash; towers keep their distance from villages, temples and structures from other mods. Look for them in open, untouched land.</blockquote>
+
 <p>Goblins, gnomes, elves, dire wolves, satyrs, arcane mages and the undead fill the floors and halls &mdash; all from <a href="https://www.curseforge.com/minecraft/mc-mods/majestic-bestiary">Majestic Bestiary</a>.</p>
 
 <br>

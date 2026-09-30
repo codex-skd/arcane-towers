@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.0-beta.4]
+
+### Changed
+- **Towers keep their distance**: each tower has its own structure set with `expedition_core:isolated_spread`
+  (spacing 40, separation 14, `isolation_chunks` 8) — never within 8 chunks of another surface structure
+  (villages, outposts, ruined portals, other mods). Dev-server check: nearest village/outpost/portal 164-688 blocks.
+- **Only in wide biomes**: structures use `expedition_core:wide_biome_jigsaw` with `biome_check_radius` 64 —
+  the biome must cover the centre and 8 points 64 blocks around it.
+- **Umbral Tower guardian** is now a Goliath (the Mountain Giant is no longer a guardian anywhere).
+- Exit Stone emits enchantment, end-rod and portal particles around it.
+- Requires Expedition Core 0.0.0-beta.5 and Majestic Bestiary 0.0.0-beta.4.
+
 ## [0.0.0-beta.3]
 
 ### Fixed

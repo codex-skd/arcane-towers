@@ -48,6 +48,7 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.util.RandomSource;
 
 /**
  * The Exit Stone: a two-block-tall standing stone found in the final room of every tower's dungeon.
@@ -83,7 +84,7 @@ public class ExitStoneBlock extends Block {
             new Tower("stone_tower", "tauren"),
             new Tower("frost_tower", "goliath"),
             new Tower("sandstone_tower", "centaur"),
-            new Tower("umbral_tower", "giant")
+            new Tower("umbral_tower", "goliath")
     );
 
     public ExitStoneBlock(Properties properties) {
@@ -103,6 +104,44 @@ public class ExitStoneBlock extends Block {
         Map<Direction, VoxelShape> shapes =
                 state.getValue(HALF) == DoubleBlockHalf.LOWER ? LOWER_SHAPES : UPPER_SHAPES;
         return shapes.get(state.getValue(FACING));
+    }
+
+    @Override
+    public void animateTick(BlockState state, Level level, BlockPos pos, RandomSource random) {
+        if (state.getValue(HALF) != DoubleBlockHalf.LOWER) {
+            return;
+        }
+
+        double centreX = pos.getX() + 0.5;
+        double centreY = pos.getY() + 1.0;
+        double centreZ = pos.getZ() + 0.5;
+
+        int enchantCount = 2 + random.nextInt(2);
+        for (int i = 0; i < enchantCount; i++) {
+            double angle = random.nextDouble() * Math.PI * 2.0;
+            double radius = 1.5;
+            double x = centreX + Math.cos(angle) * radius;
+            double z = centreZ + Math.sin(angle) * radius;
+            double y = pos.getY() + 0.3 + random.nextDouble() * 2.0;
+            level.addParticle(ParticleTypes.ENCHANT, x, y, z,
+                    (centreX - x) * 0.05, 0.02, (centreZ - z) * 0.05);
+        }
+
+        if (random.nextInt(3) == 0) {
+            level.addParticle(ParticleTypes.END_ROD,
+                    centreX + (random.nextDouble() - 0.5) * 0.6,
+                    centreY + 0.2 + random.nextDouble() * 0.8,
+                    centreZ + (random.nextDouble() - 0.5) * 0.6,
+                    0.0, 0.02, 0.0);
+        }
+
+        if (random.nextInt(6) == 0) {
+            level.addParticle(ParticleTypes.PORTAL,
+                    centreX + (random.nextDouble() - 0.5),
+                    centreY + random.nextDouble() * 1.5,
+                    centreZ + (random.nextDouble() - 0.5),
+                    0.0, 0.0, 0.0);
+        }
     }
 
     private static Map<Direction, VoxelShape> buildShapes(double[][] boxes) {

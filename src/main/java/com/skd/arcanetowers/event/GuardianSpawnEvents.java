@@ -55,7 +55,7 @@ public final class GuardianSpawnEvents {
             new TowerGuardian("stone_tower", "tauren"),
             new TowerGuardian("frost_tower", "goliath"),
             new TowerGuardian("sandstone_tower", "centaur"),
-            new TowerGuardian("umbral_tower", "giant")
+            new TowerGuardian("umbral_tower", "goliath")
     );
 
     public static void onPlayerTick(PlayerTickEvent.Post event) {
