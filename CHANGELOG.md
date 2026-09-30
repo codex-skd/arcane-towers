@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.0-beta.3]
+
+### Fixed
+- Crash opening the creative inventory (`IllegalArgumentException: The stack count must be 1`): the Exit Stone
+  had no block item, so the Arcane Towers creative tab received an empty stack. The block item is now registered.
+
 ## [0.0.0-beta.2]
 
 ### Changed

@@ -1,11 +1,12 @@
 package com.skd.arcanetowers.block;
 
 import com.skd.arcanetowers.ArcaneTowers;
-import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 /**
@@ -29,9 +30,15 @@ public final class ModBlocks {
                     .requiresCorrectToolForDrops()
     );
 
+    private static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ArcaneTowers.MOD_ID);
+
+    /** Block item of the Exit Stone; without it the block has no item form and the creative tab gets an empty stack. */
+    public static final DeferredItem<BlockItem> EXIT_STONE_ITEM = ITEMS.registerSimpleBlockItem(EXIT_STONE);
+
     private ModBlocks() {}
 
     public static void register(IEventBus modEventBus) {
         BLOCKS.register(modEventBus);
+        ITEMS.register(modEventBus);
     }
 }
