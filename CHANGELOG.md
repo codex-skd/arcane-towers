@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.0-beta.5]
+
+### Changed
+- **Taller part 3 — looks and decoration** (same pieces, pools and connectors): magical exteriors (stone: corner
+  turrets with copper spires, amethyst-rune buttresses, octagonal parapet, banners; frost: thick buttresses, tall
+  octagonal spire up to y 89, floating ice rings; sandstone: rune rings, copper observatory dome with telescope,
+  gold spire; umbral: leaning tower with buttresses, broken crown and floating ring, crystal spire), fully
+  decorated floors (library, alchemy lab, astronomer's study…) and irregular dungeon rooms (pilasters, collapsed
+  corners, rubble, cobwebs, stalactites).
+- Frost Tower: Exit Stone on a central dais; Umbral Tower: guardian hall with a 19×10×19 free volume for the
+  Goliath, Exit Stone and vault moved to the walls.
+- Requires Majestic Bestiary 0.0.0-beta.5.
+
 ## [0.0.0-beta.4]
 
 ### Changed
