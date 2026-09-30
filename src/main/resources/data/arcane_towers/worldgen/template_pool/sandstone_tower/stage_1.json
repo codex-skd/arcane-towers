@@ -1,0 +1,23 @@
+{
+  "fallback": "arcane_towers:sandstone_tower/stage_1_fallback",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcane_towers:sandstone_tower/s1_corridor",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcane_towers:sandstone_tower/s1_room",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 2
+    }
+  ]
+}

@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.0-beta.2]
+
+### Changed
+- **Staged dungeons** (taller part 2): entry → stage 1 → stage 2 → stage 3 → end hall, with optional side rooms
+  that end in dead ends. The end hall is now structurally guaranteed (taller simulator: 50/50 seeds per tower,
+  0 overlaps) and dungeons are 9-12 pieces. Measured in a dev server with `/place structure`: **15-22 spawners
+  per tower** including the tower floors (was 54-98).
+- Old free-branching pieces (`room_a`, `room_b`, `corridor_a`, `corridor_b`) and the `dungeon_rooms` pool
+  replaced by `s1..s3_corridor/room`, `link_1..3` (fallbacks), `side_room_a/b`.
+
 ## [0.0.0-beta.1]
 
 ### Added
