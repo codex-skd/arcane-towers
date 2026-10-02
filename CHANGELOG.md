@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.0-beta.6]
+
+### Changed
+- **All 60 structure pieces re-imported** from workshop beta.34: 15 per tower across `stone_tower`,
+  `frost_tower`, `sandstone_tower` and `umbral_tower`.
+- **The ground floor moved up 6 blocks** in every tower, with a solid rock base beneath it, and
+  `start_height` changed from `absolute: -24` to `absolute: -30` to match. Together these keep the
+  playable floor at the same world height while adding 6 blocks of base, so a tower on sloped ground
+  has less of a gap under it.
+
+### Notes
+- **This mitigates the reported problem rather than solving it.** The towers carry
+  `project_start_to_heightmap: WORLD_SURFACE_WG`, which is what makes a tower follow the terrain: it
+  is seated at the surface height of a single column, so on a steep slope the rest of the footprint
+  can still float or bury. The extra rock base absorbs that, up to 6 blocks of it. Nothing has been
+  placed in a world yet.
+- Verified from the delivered NBTs: door open at local (11, 30, 0) in three towers and an open
+  threshold step at (11, 30, 1) in the fourth, floor at y=29 with the player's feet at y=30, and the
+  shaft jigsaw still at (10, 0, 10).
+
 ## [0.0.0-beta.5]
 
 ### Changed
