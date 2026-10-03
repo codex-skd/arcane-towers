@@ -35,7 +35,7 @@
 <h2>&#127919; How a Tower Works</h2>
 
 <ol>
-<li><strong>Climb.</strong> Stairs wind up around a sealed central shaft. Every floor has its own creatures and loot. <em>(The Frost Tower's stairs are being fixed &mdash; see the changelog.)</em></li>
+<li><strong>Climb.</strong> Stairs wind up around a sealed central shaft. Every floor has its own creatures and loot. All four towers are walkable from the ground up as of beta.7.</li>
 <li><strong>Leap.</strong> On the last floor the shaft opens. Jump in &mdash; it's a long way down, but water breaks your fall.</li>
 <li><strong>Descend.</strong> Below the tower lies a dungeon that unfolds in <strong>three stages</strong>, each with its own corridors and rooms, plus side chambers off the main path. Every stage is crawling with the undead.</li>
 <li><strong>Face the guardian.</strong> Each tower hides a powerful guardian in its deepest hall, beside the vault.</li>
