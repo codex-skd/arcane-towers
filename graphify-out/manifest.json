@@ -30,9 +30,9 @@
     "semantic_hash": "d16dc89ec7688bce9488344a02fe697b"
   },
   "src/main/java/com/skd/arcanetowers/block/ExitStoneBlock.java": {
-    "mtime": 1790715730.9749131,
-    "ast_hash": "1543cb3ab07423c63c8318c8b3308845",
-    "semantic_hash": "1543cb3ab07423c63c8318c8b3308845"
+    "mtime": 1790788684.6468208,
+    "ast_hash": "6231e4ddb7f9e93a4562d5b93a961829",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/arcanetowers/block/ModBlocks.java": {
     "mtime": 1790763130.4705288,
@@ -45,9 +45,9 @@
     "semantic_hash": "f8766b23dee28b5b4dfd4fe8aea3cc28"
   },
   "src/main/java/com/skd/arcanetowers/event/GuardianSpawnEvents.java": {
-    "mtime": 1790716613.4831574,
-    "ast_hash": "28601063875da6a303d7a0f300a67951",
-    "semantic_hash": "28601063875da6a303d7a0f300a67951"
+    "mtime": 1790788675.2672508,
+    "ast_hash": "434c167532970b88ed6fbf415de5b6d2",
+    "semantic_hash": ""
   },
   "src/main/java/com/skd/arcanetowers/world/GuardianData.java": {
     "mtime": 1790713482.4792588,
@@ -140,248 +140,368 @@
     "semantic_hash": "8f3440fb3fc3c8617a22bd4be8eca1e1"
   },
   "src/main/resources/data/arcane_towers/worldgen/structure/frost_tower.json": {
-    "mtime": 1790713533.3100374,
-    "ast_hash": "74fd4a7253e8c70e0b58d96bbd03ba92",
-    "semantic_hash": "74fd4a7253e8c70e0b58d96bbd03ba92"
+    "mtime": 1790980726.508345,
+    "ast_hash": "f8752e10788cfa67dbbdfbce1b911b54",
+    "semantic_hash": ""
   },
   "src/main/resources/data/arcane_towers/worldgen/structure/sandstone_tower.json": {
-    "mtime": 1790713533.3100374,
-    "ast_hash": "4ab151777cc0004bef6f966a4aeae299",
-    "semantic_hash": "4ab151777cc0004bef6f966a4aeae299"
+    "mtime": 1790980726.508845,
+    "ast_hash": "49ceea6e05d512aae99858e91968cc20",
+    "semantic_hash": ""
   },
   "src/main/resources/data/arcane_towers/worldgen/structure/stone_tower.json": {
-    "mtime": 1790713533.3085377,
-    "ast_hash": "733397014767c5b798481434c98f2582",
-    "semantic_hash": "733397014767c5b798481434c98f2582"
+    "mtime": 1790980726.5093455,
+    "ast_hash": "a954b6e185d6f166e885c12a11370304",
+    "semantic_hash": ""
   },
   "src/main/resources/data/arcane_towers/worldgen/structure/umbral_tower.json": {
-    "mtime": 1790713533.310537,
-    "ast_hash": "8b86467378fe9ed46d52efffd483c7a8",
-    "semantic_hash": "8b86467378fe9ed46d52efffd483c7a8"
-  },
-  "src/main/resources/data/arcane_towers/worldgen/structure_set/towers.json": {
-    "mtime": 1790713533.318547,
-    "ast_hash": "7632b96a0ba0d438df1f00fea3e03163",
-    "semantic_hash": "7632b96a0ba0d438df1f00fea3e03163"
+    "mtime": 1790980726.5093455,
+    "ast_hash": "2f5247f6617ed45b1479ebffd744fa58",
+    "semantic_hash": ""
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/frost_tower/dead_ends.json": {
-    "mtime": 1790728277.1505713,
+    "mtime": 1790804536.4579504,
     "ast_hash": "284f06e6be244a28dff7d3e6416efa1c",
     "semantic_hash": "284f06e6be244a28dff7d3e6416efa1c"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/frost_tower/dungeon_end.json": {
-    "mtime": 1790728277.1505713,
+    "mtime": 1790804536.4574502,
     "ast_hash": "e1dadc7ae1e567ea62daa101934e6897",
     "semantic_hash": "e1dadc7ae1e567ea62daa101934e6897"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/frost_tower/dungeon_entry.json": {
-    "mtime": 1790728277.1505713,
+    "mtime": 1790804536.4544501,
     "ast_hash": "98e712ec9e5f0a869258db0cfe4afd15",
     "semantic_hash": "98e712ec9e5f0a869258db0cfe4afd15"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/frost_tower/side.json": {
-    "mtime": 1790728277.1505713,
+    "mtime": 1790804536.4574502,
     "ast_hash": "87b9c420b74a0ce15cf8c3e49e57869b",
     "semantic_hash": "87b9c420b74a0ce15cf8c3e49e57869b"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/frost_tower/stage_1.json": {
-    "mtime": 1790728277.1505713,
+    "mtime": 1790804536.4544501,
     "ast_hash": "3f1064ffd1df7139abb800de93b6b4a1",
     "semantic_hash": "3f1064ffd1df7139abb800de93b6b4a1"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/frost_tower/stage_1_fallback.json": {
-    "mtime": 1790728277.1505713,
+    "mtime": 1790804536.455951,
     "ast_hash": "10c8c0132142e1335eb1e83d3b3d6eee",
     "semantic_hash": "10c8c0132142e1335eb1e83d3b3d6eee"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/frost_tower/stage_2.json": {
-    "mtime": 1790728277.1505713,
+    "mtime": 1790804536.45495,
     "ast_hash": "d9a33ca1513f6cad00d526b686b43bf2",
     "semantic_hash": "d9a33ca1513f6cad00d526b686b43bf2"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/frost_tower/stage_2_fallback.json": {
-    "mtime": 1790728277.1505713,
+    "mtime": 1790804536.455951,
     "ast_hash": "77efa8db40ed68f392338268ff9e452b",
     "semantic_hash": "77efa8db40ed68f392338268ff9e452b"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/frost_tower/stage_3.json": {
-    "mtime": 1790728277.1505713,
+    "mtime": 1790804536.4554503,
     "ast_hash": "df224df896799745d4c677e91fb73a66",
     "semantic_hash": "df224df896799745d4c677e91fb73a66"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/frost_tower/stage_3_fallback.json": {
-    "mtime": 1790728277.1505713,
+    "mtime": 1790804536.4569504,
     "ast_hash": "0c455c1d5bf83749b93c20970806c72a",
     "semantic_hash": "0c455c1d5bf83749b93c20970806c72a"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/frost_tower/start.json": {
-    "mtime": 1790728277.1500692,
+    "mtime": 1790804536.4539504,
     "ast_hash": "d0fe7da155fe6f9607df8b78c95560ff",
     "semantic_hash": "d0fe7da155fe6f9607df8b78c95560ff"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/sandstone_tower/dead_ends.json": {
-    "mtime": 1790728277.1650915,
+    "mtime": 1790804536.4815133,
     "ast_hash": "260bbfc116e251070346c9a349641ed9",
     "semantic_hash": "260bbfc116e251070346c9a349641ed9"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/sandstone_tower/dungeon_end.json": {
-    "mtime": 1790728277.1650915,
+    "mtime": 1790804536.4820135,
     "ast_hash": "fbe605fbb138a34a3857bf1995581c24",
     "semantic_hash": "fbe605fbb138a34a3857bf1995581c24"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/sandstone_tower/dungeon_entry.json": {
-    "mtime": 1790728277.161822,
+    "mtime": 1790804536.4790113,
     "ast_hash": "6192146fe5f215bc6d972e359c2c6117",
     "semantic_hash": "6192146fe5f215bc6d972e359c2c6117"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/sandstone_tower/side.json": {
-    "mtime": 1790728277.1645458,
+    "mtime": 1790804536.4810133,
     "ast_hash": "b4e9082f0eba048f9a5c735df48db488",
     "semantic_hash": "b4e9082f0eba048f9a5c735df48db488"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/sandstone_tower/stage_1.json": {
-    "mtime": 1790728277.161822,
+    "mtime": 1790804536.4795132,
     "ast_hash": "065731ec6c6445636f51e7b2482da7d4",
     "semantic_hash": "065731ec6c6445636f51e7b2482da7d4"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/sandstone_tower/stage_1_fallback.json": {
-    "mtime": 1790728277.161822,
+    "mtime": 1790804536.4805143,
     "ast_hash": "a097eb0758cac7106770a4e373eb677a",
     "semantic_hash": "a097eb0758cac7106770a4e373eb677a"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/sandstone_tower/stage_2.json": {
-    "mtime": 1790728277.161822,
+    "mtime": 1790804536.4795132,
     "ast_hash": "4b5dd3e4394f27a69899561cdbe4b0bb",
     "semantic_hash": "4b5dd3e4394f27a69899561cdbe4b0bb"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/sandstone_tower/stage_2_fallback.json": {
-    "mtime": 1790728277.161822,
+    "mtime": 1790804536.4805143,
     "ast_hash": "2c2a89d8fd7d1b2be477c4552934c0d0",
     "semantic_hash": "2c2a89d8fd7d1b2be477c4552934c0d0"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/sandstone_tower/stage_3.json": {
-    "mtime": 1790728277.161822,
+    "mtime": 1790804536.480014,
     "ast_hash": "d7b32e157b6fa84d77b0af93c304978e",
     "semantic_hash": "d7b32e157b6fa84d77b0af93c304978e"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/sandstone_tower/stage_3_fallback.json": {
-    "mtime": 1790728277.1645458,
+    "mtime": 1790804536.4810133,
     "ast_hash": "72f1ec345dce8680e82ebde10aa35687",
     "semantic_hash": "72f1ec345dce8680e82ebde10aa35687"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/sandstone_tower/start.json": {
-    "mtime": 1790728277.161822,
+    "mtime": 1790804536.4779925,
     "ast_hash": "32bccd373fa9604f8f0996c463c3bee3",
     "semantic_hash": "32bccd373fa9604f8f0996c463c3bee3"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/stone_tower/dead_ends.json": {
-    "mtime": 1790728277.1359696,
+    "mtime": 1790804536.434917,
     "ast_hash": "7bedd447338bda15041ea3ea562dc5fd",
     "semantic_hash": "7bedd447338bda15041ea3ea562dc5fd"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/stone_tower/dungeon_end.json": {
-    "mtime": 1790728277.1359696,
+    "mtime": 1790804536.4354167,
     "ast_hash": "bd30eedbf1dc066edeb579ee94077cb8",
     "semantic_hash": "bd30eedbf1dc066edeb579ee94077cb8"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/stone_tower/dungeon_entry.json": {
-    "mtime": 1790728277.1359696,
+    "mtime": 1790804536.4319167,
     "ast_hash": "11102ea0786a910ca71c555757a8ab0d",
     "semantic_hash": "11102ea0786a910ca71c555757a8ab0d"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/stone_tower/side.json": {
-    "mtime": 1790728277.1359696,
+    "mtime": 1790804536.4339163,
     "ast_hash": "16e4920ca0439a471739c105a3c1b058",
     "semantic_hash": "16e4920ca0439a471739c105a3c1b058"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/stone_tower/stage_1.json": {
-    "mtime": 1790728277.1359696,
+    "mtime": 1790804536.432417,
     "ast_hash": "4d64ee00a27cbab29606d3731e8608dd",
     "semantic_hash": "4d64ee00a27cbab29606d3731e8608dd"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/stone_tower/stage_1_fallback.json": {
-    "mtime": 1790728277.1359696,
+    "mtime": 1790804536.4334166,
     "ast_hash": "ac96015c9910d54c3ae8fd29ad9934ea",
     "semantic_hash": "ac96015c9910d54c3ae8fd29ad9934ea"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/stone_tower/stage_2.json": {
-    "mtime": 1790728277.1359696,
+    "mtime": 1790804536.432417,
     "ast_hash": "66403e43ceb5d1a318240fe5d04212bd",
     "semantic_hash": "66403e43ceb5d1a318240fe5d04212bd"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/stone_tower/stage_2_fallback.json": {
-    "mtime": 1790728277.1359696,
+    "mtime": 1790804536.4334166,
     "ast_hash": "118395e19f080db23b07015708636af8",
     "semantic_hash": "118395e19f080db23b07015708636af8"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/stone_tower/stage_3.json": {
-    "mtime": 1790728277.1359696,
+    "mtime": 1790804536.4329174,
     "ast_hash": "242b2ce03615edccc031d5c67188cf6b",
     "semantic_hash": "242b2ce03615edccc031d5c67188cf6b"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/stone_tower/stage_3_fallback.json": {
-    "mtime": 1790728277.1359696,
+    "mtime": 1790804536.4339163,
     "ast_hash": "1b0a367ff260a471a72110837c882e94",
     "semantic_hash": "1b0a367ff260a471a72110837c882e94"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/stone_tower/start.json": {
-    "mtime": 1790728277.1359696,
+    "mtime": 1790804536.4314172,
     "ast_hash": "5cfef56478142b81b8ac8e2fe778b4d3",
     "semantic_hash": "5cfef56478142b81b8ac8e2fe778b4d3"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/umbral_tower/dead_ends.json": {
-    "mtime": 1790728277.1742132,
+    "mtime": 1790804536.5041437,
     "ast_hash": "f28c8b89e64e769b860e7835eb0abb37",
     "semantic_hash": "f28c8b89e64e769b860e7835eb0abb37"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/umbral_tower/dungeon_end.json": {
-    "mtime": 1790728277.1742132,
+    "mtime": 1790804536.5046434,
     "ast_hash": "55e7f1c15da967c78a0465250a2dbb26",
     "semantic_hash": "55e7f1c15da967c78a0465250a2dbb26"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/umbral_tower/dungeon_entry.json": {
-    "mtime": 1790728277.1742132,
+    "mtime": 1790804536.5011392,
     "ast_hash": "93b4601422de8a15b287f8d9b20c9272",
     "semantic_hash": "93b4601422de8a15b287f8d9b20c9272"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/umbral_tower/side.json": {
-    "mtime": 1790728277.1742132,
+    "mtime": 1790804536.503644,
     "ast_hash": "0edcfed7b6bebe408afb74856101832b",
     "semantic_hash": "0edcfed7b6bebe408afb74856101832b"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/umbral_tower/stage_1.json": {
-    "mtime": 1790728277.1742132,
+    "mtime": 1790804536.5011392,
     "ast_hash": "877bff6429b76be00fd35c766864c65b",
     "semantic_hash": "877bff6429b76be00fd35c766864c65b"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/umbral_tower/stage_1_fallback.json": {
-    "mtime": 1790728277.1742132,
+    "mtime": 1790804536.5026436,
     "ast_hash": "1abf49b3618cfa05c49d4164b1b8ac77",
     "semantic_hash": "1abf49b3618cfa05c49d4164b1b8ac77"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/umbral_tower/stage_2.json": {
-    "mtime": 1790728277.1742132,
+    "mtime": 1790804536.5021412,
     "ast_hash": "53ceb45560dde738eb48242010c601e1",
     "semantic_hash": "53ceb45560dde738eb48242010c601e1"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/umbral_tower/stage_2_fallback.json": {
-    "mtime": 1790728277.1742132,
+    "mtime": 1790804536.5031435,
     "ast_hash": "50890455762452a52e6586538dff2cb3",
     "semantic_hash": "50890455762452a52e6586538dff2cb3"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/umbral_tower/stage_3.json": {
-    "mtime": 1790728277.1742132,
+    "mtime": 1790804536.5021412,
     "ast_hash": "3cac36c2658f2c7a99990aa974664d12",
     "semantic_hash": "3cac36c2658f2c7a99990aa974664d12"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/umbral_tower/stage_3_fallback.json": {
-    "mtime": 1790728277.1742132,
+    "mtime": 1790804536.503644,
     "ast_hash": "56b8da0e00dd2fe33d5098878bbc62c2",
     "semantic_hash": "56b8da0e00dd2fe33d5098878bbc62c2"
   },
   "src/main/resources/data/arcane_towers/worldgen/template_pool/umbral_tower/start.json": {
-    "mtime": 1790728277.1742132,
+    "mtime": 1790804536.5006378,
     "ast_hash": "90dde9eccc68f29dcd0242f135a3b44a",
     "semantic_hash": "90dde9eccc68f29dcd0242f135a3b44a"
+  },
+  "src/main/resources/data/arcane_towers/worldgen/structure_set/frost_tower.json": {
+    "mtime": 1790788695.6617317,
+    "ast_hash": "9891e4777e7808e4e0a8311846c170c5",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/arcane_towers/worldgen/structure_set/sandstone_tower.json": {
+    "mtime": 1790788696.2046459,
+    "ast_hash": "8327c406d8f3aa565194fdaba4b52ac1",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/arcane_towers/worldgen/structure_set/stone_tower.json": {
+    "mtime": 1790788695.1045125,
+    "ast_hash": "121cbe480f1d0074ab055c1953132715",
+    "semantic_hash": ""
+  },
+  "src/main/resources/data/arcane_towers/worldgen/structure_set/umbral_tower.json": {
+    "mtime": 1790788696.816496,
+    "ast_hash": "7b8abd32dc809ffb47dc03058b59bd34",
+    "semantic_hash": ""
+  },
+  ".claude/CLAUDE.md": {
+    "mtime": 1790705777.268405,
+    "ast_hash": "5e5c12b7615fca9df0cb3f2aaf56d7cd",
+    "semantic_hash": ""
+  },
+  "CHANGELOG.md": {
+    "mtime": 1791047051.8628087,
+    "ast_hash": "0b633b1b1f0d5bdd671a5f9728889b2c",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1790788660.6492953,
+    "ast_hash": "da1ee93fdd3789df18f15ba6f7b0127c",
+    "semantic_hash": ""
+  },
+  "docs/ARCANE_TOWERS_TALLER_GUIDE.md": {
+    "mtime": 1790705835.9225392,
+    "ast_hash": "5963dcad08470b07e8c5049cfd4ab717",
+    "semantic_hash": ""
+  },
+  "docs/ARCANE_TOWERS_TALLER_GUIDE_PART2.md": {
+    "mtime": 1790716670.8377736,
+    "ast_hash": "0642abb3fd82522402950dc1ad93be01",
+    "semantic_hash": ""
+  },
+  "docs/ARCANE_TOWERS_TALLER_GUIDE_PART3.md": {
+    "mtime": 1790786063.7404487,
+    "ast_hash": "030e28ce738e32128e7df7ec8289b14d",
+    "semantic_hash": ""
+  },
+  "docs/DESIGN_ARCANE_TOWERS_1-21-1.md": {
+    "mtime": 1790705835.875483,
+    "ast_hash": "62db42c8a7b18fad826a8751d77d3e99",
+    "semantic_hash": ""
+  },
+  "docs/WORKFLOW_ARCANE_TOWERS_1-21-1.md": {
+    "mtime": 1790705855.061719,
+    "ast_hash": "5b89f1cded7d5596d48261fcc9d62884",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/project_description.md": {
+    "mtime": 1791038353.5623438,
+    "ast_hash": "aa1b10d624ae8b4a7a0c37d51b200d23",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/project_vars.md": {
+    "mtime": 1790804832.0477116,
+    "ast_hash": "35d8892bddbc327b509d22419684a9ed",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.1.md": {
+    "mtime": 1790717632.7060602,
+    "ast_hash": "43169724d6c9e8b5ddf8951ac9ba4a12",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.2.md": {
+    "mtime": 1790728362.978819,
+    "ast_hash": "82eba4a0c7719f73f5b9daa72a64f08c",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.3.md": {
+    "mtime": 1790763673.252736,
+    "ast_hash": "1a4c8d1bdb7c6bebfb0932e1c914b951",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.4.md": {
+    "mtime": 1790789394.1982448,
+    "ast_hash": "a3243f3aade9a8e79638473872c56744",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.5.md": {
+    "mtime": 1790804832.3345068,
+    "ast_hash": "5c5ba57537dabfca222d508d8ee8d504",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.6.md": {
+    "mtime": 1790980967.3476932,
+    "ast_hash": "899a6c44c2ebf47f1c59a14a2888bfba",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.7.md": {
+    "mtime": 1791047051.86331,
+    "ast_hash": "2de5a659afa86d2bd56e2e2f85bf680a",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/logo.png": {
+    "mtime": 1790706805.0024984,
+    "ast_hash": "b412bdee1211622b4f1e693b2de0a2bc",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/arcane_towers/textures/block/exit_stone.png": {
+    "mtime": 1790715677.0905235,
+    "ast_hash": "1fed9df7d683ccdedff08f2e327320eb",
+    "semantic_hash": ""
+  },
+  "src/main/resources/assets/arcane_towers/textures/block/exit_stone_runes.png": {
+    "mtime": 1790715677.0915258,
+    "ast_hash": "f77adf6d711aae08d83b8a5be5385152",
+    "semantic_hash": ""
+  },
+  "src/main/resources/icon.png": {
+    "mtime": 1790706805.496926,
+    "ast_hash": "1f6f24f2590b1ba51bb7d262a727448b",
+    "semantic_hash": ""
   }
 }
