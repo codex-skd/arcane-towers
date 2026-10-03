@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.0-beta.7]
+
+### Fixed
+- **Three of the four towers could not be climbed.** The stair runs were five steps for a six-block
+  rise, which leaves you one block short of the floor above with no way up from where you stand. Only
+  the Tower of Arcane Stone was climbable. Runs are now six steps, in a spiral around the shaft, with
+  the facing matching the direction of travel.
+- **The Frost Tower had no stairs at all.** Its `STAIR` constant held solid blocks, so what looked like
+  a stair run was a ramp of full cubes. It now has real `prismarine_brick_stairs` over the existing
+  packed-ice ramp: vanilla has no ice stair block in 1.21.1, and prismarine brick is the closest blue
+  available, which keeps the frozen palette.
+- **The Tower of Arcane Stone's stairs were three different materials** in the same flight. Unified to
+  `stone_brick_stairs`.
+- Two Frost Tower runs were moved out of spots that blocked them: one ended under a lectern, and the
+  next landed in an alcove you could not walk to.
+
+### Notes
+- A new `audit_climb.py` check walks each tower from its door and reports `SE SUBE` / `NO SUBE` per
+  floor transition. Counting stair blocks is not the same as being climbable, which is how three broken
+  towers shipped in the first place.
+- Roof and the y=53 landing stay unreachable on purpose: the shaft is sealed and the roof is not part
+  of the route.
+- Nothing verified in game. That check assumes a one-block step, so it proves reachability rather than
+  that these exact stairs can be walked; the orientations were verified by hand. Climb it to be sure.
+
 ## [0.0.0-beta.6]
 
 ### Changed
