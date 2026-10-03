@@ -35,12 +35,23 @@
 <h2>&#127919; How a Tower Works</h2>
 
 <ol>
-<li><strong>Climb.</strong> Stairs wind up around a sealed central shaft. Every floor has its own creatures and loot.</li>
+<li><strong>Climb.</strong> Stairs wind up around a sealed central shaft. Every floor has its own creatures and loot. <em>(The Frost Tower's stairs are being fixed &mdash; see the changelog.)</em></li>
 <li><strong>Leap.</strong> On the last floor the shaft opens. Jump in &mdash; it's a long way down, but water breaks your fall.</li>
-<li><strong>Descend.</strong> Below the tower lies a dungeon of halls and corridors, crawling with the undead.</li>
+<li><strong>Descend.</strong> Below the tower lies a dungeon that unfolds in <strong>three stages</strong>, each with its own corridors and rooms, plus side chambers off the main path. Every stage is crawling with the undead.</li>
 <li><strong>Face the guardian.</strong> Each tower hides a powerful guardian in its deepest hall, beside the vault.</li>
 <li><strong>Escape.</strong> Use the Exit Stone to break the tower's seal and return to the surface.</li>
 </ol>
+
+<br>
+
+<h2>&#127979; Every Floor Is Somewhere Different</h2>
+
+<p>The four floors of a tower are not interchangeable. Depending on the tower you will walk through an
+<strong>entrance hall</strong>, a <strong>library</strong> lined with shelves, an <strong>alchemy
+laboratory</strong>, an <strong>astronomer's study</strong>, a <strong>scriptorium</strong>, an
+<strong>observatory</strong>, a <strong>camp</strong>, a <strong>ritual chamber</strong> or an
+<strong>arcane chamber</strong> &mdash; each built out of blocks rather than left empty, each with its own
+loot and its own creatures.</p>
 
 <br>
 
@@ -53,7 +64,22 @@
 <tr><td><strong>Umbral Tower</strong></td><td>Dark forests and swamps</td><td>Guarded by a <strong>Mountain Giant</strong></td></tr>
 </table>
 
-<blockquote><strong>Where to find them:</strong> each tower only rises in a <strong>wide</strong> area of its own biome, and <strong>never next to another structure</strong> &mdash; towers keep their distance from villages, temples and structures from other mods. Look for them in open, untouched land.</blockquote>
+<blockquote><strong>Where to find them:</strong> each tower only rises in a <strong>wide</strong> area of its own biome, and <strong>never next to another structure</strong> &mdash; towers keep their distance from villages, temples and structures from other mods. Look for them in open, untouched land.<br><br>Each tower now sits on a <strong>solid rock base</strong>, so it meets sloping ground instead of hovering over it.</blockquote>
+
+<h2>&#127956; They Do Not Look Alike</h2>
+
+<p>Each tower has its own silhouette before you ever go inside.</p>
+
+<ul>
+<li><strong>Tower of Arcane Stone</strong> &mdash; corner turrets with copper spires, amethyst-runed
+buttresses, an octagonal parapet and twelve white banners.</li>
+<li><strong>Frost Tower</strong> &mdash; thick corner buttresses, tall pointed windows, a high octagonal
+spire, and <strong>two rings of ice</strong> floating around it, held by chains.</li>
+<li><strong>Sandstone Tower</strong> &mdash; a copper <strong>observatory dome with a telescope</strong>,
+two octagonal rings of runes clasping the walls, and a tall gold-and-copper spire.</li>
+<li><strong>Umbral Tower</strong> &mdash; a tower that <strong>leans</strong>, with stepped buttresses, a
+railed balcony, and an open crown of eight posts carrying a broken ring and a floating one.</li>
+</ul>
 
 <p>Goblins, gnomes, elves, dire wolves, satyrs, arcane mages and the undead fill the floors and halls &mdash; all from <a href="https://www.curseforge.com/minecraft/mc-mods/majestic-bestiary">Majestic Bestiary</a>.</p>
 
