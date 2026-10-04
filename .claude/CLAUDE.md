@@ -8,6 +8,7 @@ No depende de `majestic`. Construye sobre `expedition_core` + `majestic_bestiary
 1. **Trabaja con `docs/WORKFLOW_ARCANE_TOWERS_1-21-1.md`** — workflow operativo autocontenido. Léelo y síguelo.
 2. Diseño: `docs/DESIGN_ARCANE_TOWERS_1-21-1.md`. Visión del ecosistema: `../../../majestic/neoforge/1.21.1/docs/DESIGN_ECOSYSTEM.md`.
 3. Reglas generales (idioma, no asumir, no borrar, delegación OpenCode, prioridad): `../../../codex-docs/reference/CLAUDE.md`.
+4. On-demand: `../../../codex-docs/reference/CURSEFORGE.md` (publicar), `../../../codex-docs/reference/GRAPHIFY.md`, `../../../codex-docs/reference/REPO_SETUP.md`, `../../../codex-docs/reference/WIKI.md` (wiki pública). No leerlos de forma rutinaria.
 
 ## Recordatorios específicos
 

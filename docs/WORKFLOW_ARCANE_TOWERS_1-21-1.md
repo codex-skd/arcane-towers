@@ -1,9 +1,9 @@
 # Flujo de trabajo — Arcane Towers (NeoForge)
 
-> **Versión del workflow**: 1.18.0 (codex-docs)
+> **Versión del workflow**: 1.21.0 (codex-docs)
 > Este archivo pertenece al proyecto **Arcane Towers** (librería de criaturas del ecosistema Majestic). Cambios aquí solo afectan a este proyecto.
 > **Trabaja directamente con este archivo**: es el workflow operativo del mod, autocontenido. No leas `codex-docs/WORKFLOW_AGENT.md` ni `WORKFLOW_GENERIC.md` de forma rutinaria.
-> On-demand (solo si la tarea lo necesita): `codex-docs/reference/CURSEFORGE.md` (formato HTML al publicar), `codex-docs/reference/GRAPHIFY.md` (backend LLM de Graphify), `codex-docs/reference/REPO_SETUP.md` (setup único de repo).
+> On-demand (solo si la tarea lo necesita): `codex-docs/reference/CURSEFORGE.md` (formato HTML al publicar), `codex-docs/reference/GRAPHIFY.md` (backend LLM de Graphify), `codex-docs/reference/REPO_SETUP.md` (setup único de repo), `codex-docs/reference/WIKI.md` (wiki pública del mod — solo si hay que crearla o cambiarla).
 > Diseño: [`DESIGN_ECOSYSTEM.md`](DESIGN_ECOSYSTEM.md) (visión cruzada + decisiones §9), [`DESIGN_MAJESTIC_1-21-1.md`](DESIGN_MAJESTIC_1-21-1.md), [`PROGRESSION.md`](PROGRESSION.md), [`CONTENT_MAGIC.md`](CONTENT_MAGIC.md), [`CONTENT_WORLD.md`](CONTENT_WORLD.md), [`INTEGRATIONS.md`](INTEGRATIONS.md), [`LORE.md`](LORE.md).
 
 ## Específico del mod
@@ -173,6 +173,7 @@ Leer solo `GRAPH_REPORT.md`, nunca `graph.json`/`graph.html`. Sin copias fechada
 |---|---|
 | Código fuente, logs, nombres técnicos, commits | **Inglés** (en-US) |
 | README.md | **Inglés** (en-US) |
+| Wiki pública (repos de wiki GitHub + GitLab, ver `codex-docs/reference/WIKI.md`) | **Inglés** (en-US) |
 | Documentación interna (docs/, CHANGELOG, WORKFLOW) | **Castellano** (es-ES) |
 | CurseForge (descripción, release notes) | **Inglés** (en-US) |
 | Guías para `taller_minecraft` (`*_MODEL_GUIDE.md`, tandas nuevas de `TEXTURE_GUIDE.md`) | **Inglés** (en-US) — mejor comprensión en el taller |
