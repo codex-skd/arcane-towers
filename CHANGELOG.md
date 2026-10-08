@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0]
+
+First stable release.
+
+### Added
+- **Majestic Core is now a required dependency.** The underground halls, corridors and side rooms are
+  decorated with the Order's masonry and lanterns from it. Only the dungeon pieces change; the
+  surface towers keep their vanilla palettes.
+  - All four dungeons: `lantern` and `soul_lantern` become `majestic_core:rune_lantern`.
+  - Tower of Arcane Stone and Frost Tower: chiseled, cracked and (Arcane Stone only) mossy stone
+    bricks become the matching Arcane Brick variant, and about one stone brick in six becomes plain
+    Arcane Brick.
+  - Sandstone Tower: cut and oxidised copper become Aged Bronze.
+  - Umbral Tower: crying obsidian becomes Runic
+    Obsidian, and about one deepslate brick in ten becomes Runic Brick.
+- `scripts/apply_order_decor.py` re-applies those swaps after a workshop re-import.
+
+### Notes
+- Built against Majestic Core 0.0.0-beta.11. Not verified in game.
+
 ## [0.0.0-beta.7]
 
 ### Fixed

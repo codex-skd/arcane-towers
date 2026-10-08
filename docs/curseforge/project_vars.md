@@ -6,8 +6,8 @@
 project_id = 1718216
 api_token = ee776b0a-ee95-4850-b554-06be02a8657f
 game_versions = 9638, 9639, 11779, 10150
-release_type = beta
-relations = expedition-core:requiredDependency,majestic-bestiary:requiredDependency,geckolib:requiredDependency
+release_type = release
+relations = expedition-core:requiredDependency,majestic-bestiary:requiredDependency,majestic-core:requiredDependency,astral-core:requiredDependency,geckolib:requiredDependency
 ```
 
 ## Proyecto

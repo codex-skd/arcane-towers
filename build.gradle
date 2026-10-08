@@ -97,6 +97,15 @@ dependencies {
     compileOnly files("libs/majestic_bestiary-${minecraft_version}-neoforge-${neo_version}-${majestic_bestiary_version}.jar")
     localRuntime files("libs/majestic_bestiary-${minecraft_version}-neoforge-${neo_version}-${majestic_bestiary_version}.jar")
 
+    // majestic_core (ARR, real) — Order masonry and lanterns used as underground decoration.
+    compileOnly files("libs/majestic_core-${minecraft_version}-neoforge-${neo_version}-${majestic_core_version}.jar")
+    localRuntime files("libs/majestic_core-${minecraft_version}-neoforge-${neo_version}-${majestic_core_version}.jar")
+
+    // astral_core (MIT) — majestic_core requires it at runtime; arcane_towers never touches its API.
+    localRuntime files("libs/astral_core-${minecraft_version}-neoforge-${neo_version}-${astral_core_version}.jar")
+    // regalia_slots_api — astral_core requires it at runtime.
+    localRuntime files("libs/regalia_slots_api-${minecraft_version}-neoforge-${neo_version}-${regalia_slots_api_version}.jar")
+
     // GeckoLib — runtime requirement of majestic_bestiary's creatures.
     implementation "software.bernie.geckolib:geckolib-neoforge-${minecraft_version}:${geckolib_version}"
 }

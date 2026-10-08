@@ -29,12 +29,13 @@ Se sube cada torre planta a planta por escaleras alrededor de una **columna cent
 a su guardián y usa la **Piedra de salida** (bloque de 2 de alto). Hasta usarla, la torre y su mazmorra **no se
 pueden picar ni construir** (protección de `expedition_core`). Criaturas de `majestic_bestiary`.
 
-- **No depende de majestic** (decisión 2026-09-29): se puede jugar solo con sus librerías.
+- **No depende de majestic** (decisión 2026-09-29): se puede jugar solo con sus librerías. Desde 1.0.0 (2026-10-08) también depende de `majestic_core` (bloques de decoración de la mazmorra).
 - Diseño: [`DESIGN_ARCANE_TOWERS_1-21-1.md`](DESIGN_ARCANE_TOWERS_1-21-1.md). Encargo al taller:
   [`ARCANE_TOWERS_TALLER_GUIDE.md`](ARCANE_TOWERS_TALLER_GUIDE.md).
 
-Dependencias (todas **externas, nunca jar-in-jar**): `expedition_core`, `majestic_bestiary`, `geckolib` = required.
-En desarrollo las dos librerías SKD se consumen como `compileOnly files("libs/<jar>")`.
+Dependencias (todas **externas, nunca jar-in-jar**): `expedition_core`, `majestic_bestiary`, `majestic_core`, `geckolib` = required.
+`majestic_core` aporta la mampostería de la Orden y las linternas rúnicas con que se decora la **parte subterránea** (script `scripts/apply_order_decor.py`; `tower.nbt` no se toca).
+En desarrollo las librerías SKD se consumen como `compileOnly files("libs/<jar>")`.
 
 ## Convenciones de nomenclatura
 
@@ -137,7 +138,7 @@ git commit -m "chore: bump version to 0.1.0-alpha"
 ```
 
 CurseForge: proyecto **público, descarga libre**, `mod_license = All Rights Reserved`. Declarar
-`expedition_core` y `geckolib` como **required dependencies**.
+`expedition_core`, `majestic_bestiary`, `majestic_core` y `geckolib` como **required dependencies**.
 
 **3. Release estable** — `mod_version=1.0.0` + commit `chore: bump version to X.Y.Z` (sin tag).
 Los mods del ecosistema (`astral_core`, `expedition_core`, `almanac_core`, `arcane_towers`, `majestic`) suben a

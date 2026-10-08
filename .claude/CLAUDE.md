@@ -1,7 +1,7 @@
 # CLAUDE.md — arcane_towers (1.21.1)
 
 Mod de **mazmorras (torres arcanas)** del ecosistema **Majestic** (mod NeoForge del grupo `stalking-dragons/minecraft`).
-No depende de `majestic`. Construye sobre `expedition_core` + `majestic_bestiary` (+ GeckoLib).
+No depende de `majestic`. Construye sobre `expedition_core` + `majestic_bestiary` + `majestic_core` (decoración subterránea) (+ GeckoLib).
 
 ## Workflow del mod
 
@@ -13,7 +13,7 @@ No depende de `majestic`. Construye sobre `expedition_core` + `majestic_bestiary
 ## Recordatorios específicos
 
 - **Licencia: All Rights Reserved.** Repo **privado**, **solo rama `production`**, **sin espejo `main`**, sin `.gitlab-ci.yml` de mirror.
-- **Sin bundling / jar-in-jar**. `expedition_core`, `majestic_bestiary` y `geckolib` = required.
+- **Sin bundling / jar-in-jar**. `expedition_core`, `majestic_bestiary`, `majestic_core` y `geckolib` = required.
 - Criaturas: solo las de `majestic_bestiary` (spawners / guardianes).
 - Implementación delegada en OpenCode; diseño, docs, git, Graphify y publicación los lleva Claude.
 

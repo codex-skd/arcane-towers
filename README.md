@@ -8,5 +8,5 @@ Exit Stone is used. Inhabited by Majestic Bestiary creatures.
 
 - **Placement**: each tower generates only in a wide area of its biome and never near another structure
   (villages, temples, other mods' structures).
-- **Requires**: Expedition Core, Majestic Bestiary, GeckoLib.
+- **Requires**: Expedition Core, Majestic Bestiary, Majestic Core, GeckoLib.
 - **License**: All Rights Reserved (see `LICENSE`).

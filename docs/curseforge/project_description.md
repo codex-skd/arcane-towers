@@ -98,7 +98,7 @@ railed balcony, and an open crown of eight posts carrying a broken ring and a fl
 <tr><td><strong>NeoForge</strong></td><td>21.1.249+</td></tr>
 <tr><td><strong>Java</strong></td><td>21</td></tr>
 <tr><td><strong>Side</strong></td><td>Client and Server (required on both)</td></tr>
-<tr><td><strong>Requires</strong></td><td><a href="https://www.curseforge.com/minecraft/mc-mods/majestic-bestiary">Majestic Bestiary</a>, <a href="https://www.curseforge.com/minecraft/mc-mods/expedition-core">Expedition Core</a>, <a href="https://www.curseforge.com/minecraft/mc-mods/geckolib">GeckoLib</a></td></tr>
+<tr><td><strong>Requires</strong></td><td><a href="https://www.curseforge.com/minecraft/mc-mods/majestic-bestiary">Majestic Bestiary</a>, <a href="https://www.curseforge.com/minecraft/mc-mods/expedition-core">Expedition Core</a>, <a href="https://www.curseforge.com/minecraft/mc-mods/majestic-core">Majestic Core</a> (and its own dependency Astral Core), <a href="https://www.curseforge.com/minecraft/mc-mods/geckolib">GeckoLib</a></td></tr>
 </table>
 
 <p>Arcane Towers does <strong>not</strong> require Majestic &mdash; it works on its own with its libraries, and fits right in alongside it.</p>
