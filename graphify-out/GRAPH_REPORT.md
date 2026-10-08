@@ -1,16 +1,16 @@
-# Graph Report - 1.21.1  (2026-10-03)
+# Graph Report - 1.21.1  (2026-10-09)
 
 ## Corpus Check
-- 97 files · ~115,519 words
+- 99 files · ~116,197 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 238 nodes · 378 edges · 25 communities (24 shown, 1 thin omitted)
+- 246 nodes · 385 edges · 27 communities (26 shown, 1 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 3 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ccddeaa8`
+- Built from commit: `e26d342b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -30,14 +30,15 @@
 - Block Placement
 - Arcane Towers — taller work order, part 3: looks and decoration (playtest 2026-09-30)
 - README.md
+- apply_order_decor.py
 
 ## God Nodes (most connected - your core abstractions)
 1. `ExitStoneBlock` - 27 edges
 2. `Flujo de trabajo — Arcane Towers (NeoForge)` - 13 edges
 3. `GuardianSpawnEvents` - 11 edges
-4. `CurseForge — Variables del proyecto` - 10 edges
-5. `ModBlocks` - 9 edges
-6. `Changelog` - 9 edges
+4. `Changelog` - 10 edges
+5. `CurseForge — Variables del proyecto` - 10 edges
+6. `ModBlocks` - 9 edges
 7. `GuardianData` - 8 edges
 8. `Located` - 7 edges
 9. `ArcaneTowers` - 6 edges
@@ -50,11 +51,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (25 total, 1 thin omitted)
+## Communities (27 total, 1 thin omitted)
 
 ### Community 0 - "Guardian Events"
-Cohesion: 0.20
-Nodes (13): EntityType, Mob, Post, GuardianSpawnEvents, BlockPos, BoundingBox, Player, ResourceKey (+5 more)
+Cohesion: 0.19
+Nodes (14): EntityType, Mob, Post, ResourceLocation, GuardianSpawnEvents, BlockPos, BoundingBox, Player (+6 more)
 
 ### Community 1 - "Mod Blocks"
 Cohesion: 0.16
@@ -81,12 +82,12 @@ Cohesion: 0.07
 Nodes (26): A1. Tower piece `tower.nbt` (one per id), A2. Dungeon pieces (one set per id, underground), A3. Validation (hard requirements), Arcane Towers — taller work order (2026-09-29), Done means, Task A — Four tower dungeons (`structures/arcane_towers/<id>`), Task B — Exit Stone block (`blocks/arcane_towers`), 1. Concepto (+18 more)
 
 ### Community 7 - "Arcane Towers"
-Cohesion: 0.32
-Nodes (8): Logger, Mod, ModContainer, ResourceLocation, ArcaneTowers, IEventBus, ResourceKey, Structure
+Cohesion: 0.36
+Nodes (7): Logger, Mod, ModContainer, ArcaneTowers, IEventBus, ResourceKey, Structure
 
 ### Community 8 - "Block Interaction"
-Cohesion: 0.10
-Nodes (20): [0.0.0], [0.0.0-beta.1], [0.0.0-beta.2], [0.0.0-beta.3], [0.0.0-beta.4], [0.0.0-beta.5], [0.0.0-beta.6], [0.0.0-beta.7] (+12 more)
+Cohesion: 0.08
+Nodes (23): [0.0.0], [0.0.0-beta.1], [0.0.0-beta.2], [0.0.0-beta.3], [0.0.0-beta.4], [0.0.0-beta.5], [0.0.0-beta.6], [0.0.0-beta.7] (+15 more)
 
 ### Community 9 - "Tower Location"
 Cohesion: 0.17
@@ -108,8 +109,12 @@ Nodes (4): Arcane Towers — taller work order, part 2: bounded dungeons with a 
 Cohesion: 0.40
 Nodes (4): Arcane Towers — taller work order, part 3: looks and decoration (playtest 2026-09-30), Done means, Global (all four towers), Per tower
 
+### Community 25 - "apply_order_decor.py"
+Cohesion: 0.67
+Nodes (3): main(), pick(), Swap decorative blocks in the underground pieces for majestic_core ones.  Only
+
 ## Knowledge Gaps
-- **52 isolated node(s):** `Workflow del mod`, `Recordatorios específicos`, `Prioridad de instrucciones`, `Fixed`, `Notes` (+47 more)
+- **54 isolated node(s):** `Workflow del mod`, `Recordatorios específicos`, `Prioridad de instrucciones`, `Added`, `Notes` (+49 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -117,16 +122,16 @@ Nodes (4): Arcane Towers — taller work order, part 3: looks and decoration (pl
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `ExitStoneBlock` connect `Block Properties` to `Mod Blocks`?**
-  _High betweenness centrality (0.046) - this node is a cross-community bridge._
-- **Why does `GuardianSpawnEvents` connect `Guardian Events` to `Arcane Towers`?**
-  _High betweenness centrality (0.038) - this node is a cross-community bridge._
+  _High betweenness centrality (0.043) - this node is a cross-community bridge._
 - **Why does `ModBlocks` connect `Mod Blocks` to `Block Properties`?**
-  _High betweenness centrality (0.025) - this node is a cross-community bridge._
-- **What connects `Workflow del mod`, `Recordatorios específicos`, `Prioridad de instrucciones` to the rest of the system?**
-  _52 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.024) - this node is a cross-community bridge._
+- **What connects `Swap decorative blocks in the underground pieces for majestic_core ones.  Only`, `Workflow del mod`, `Recordatorios específicos` to the rest of the system?**
+  _55 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Project Info` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `Block Properties` be split into smaller, more focused modules?**
   _Cohesion score 0.10588235294117647 - nodes in this community are weakly interconnected._
 - **Should `Exit Stone` be split into smaller, more focused modules?**
   _Cohesion score 0.06896551724137931 - nodes in this community are weakly interconnected._
+- **Should `Block Interaction` be split into smaller, more focused modules?**
+  _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._

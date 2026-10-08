@@ -1,8 +1,8 @@
 {
   "build.gradle": {
-    "mtime": 1790705752.0229938,
-    "ast_hash": "809dee18b9e08476c6c3c27daaf85dce",
-    "semantic_hash": "809dee18b9e08476c6c3c27daaf85dce"
+    "mtime": 1791495877.5670629,
+    "ast_hash": "15358e3f92f1bdb28c530996640d251e",
+    "semantic_hash": ""
   },
   "gradlew": {
     "mtime": 1790705750.8462617,
@@ -400,18 +400,18 @@
     "semantic_hash": ""
   },
   ".claude/CLAUDE.md": {
-    "mtime": 1790705777.268405,
-    "ast_hash": "5e5c12b7615fca9df0cb3f2aaf56d7cd",
+    "mtime": 1791495724.2241793,
+    "ast_hash": "a795d134e1d13c806f5d218adf3218ef",
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1791047051.8628087,
-    "ast_hash": "0b633b1b1f0d5bdd671a5f9728889b2c",
+    "mtime": 1791496021.1199365,
+    "ast_hash": "7bb3b2e376da4ae2ab52cf7d0ffb424e",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1790788660.6492953,
-    "ast_hash": "da1ee93fdd3789df18f15ba6f7b0127c",
+    "mtime": 1791495724.1623635,
+    "ast_hash": "3022d86eefae91a21392000b63047196",
     "semantic_hash": ""
   },
   "docs/ARCANE_TOWERS_TALLER_GUIDE.md": {
@@ -435,18 +435,18 @@
     "semantic_hash": ""
   },
   "docs/WORKFLOW_ARCANE_TOWERS_1-21-1.md": {
-    "mtime": 1790705855.061719,
-    "ast_hash": "5b89f1cded7d5596d48261fcc9d62884",
+    "mtime": 1791495724.2112608,
+    "ast_hash": "69c38bca9546f4b1f3c28dff6f8de8d9",
     "semantic_hash": ""
   },
   "docs/curseforge/project_description.md": {
-    "mtime": 1791038353.5623438,
-    "ast_hash": "aa1b10d624ae8b4a7a0c37d51b200d23",
+    "mtime": 1791495854.1385746,
+    "ast_hash": "dafff04130e5fa2e4970404eed941cd3",
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1790804832.0477116,
-    "ast_hash": "35d8892bddbc327b509d22419684a9ed",
+    "mtime": 1791495854.1257625,
+    "ast_hash": "e3e9701d5cc28d53e669aad16c0741c3",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/0.0.0-beta.1.md": {
@@ -502,6 +502,16 @@
   "src/main/resources/icon.png": {
     "mtime": 1790706805.496926,
     "ast_hash": "1f6f24f2590b1ba51bb7d262a727448b",
+    "semantic_hash": ""
+  },
+  "scripts/apply_order_decor.py": {
+    "mtime": 1791496021.1209416,
+    "ast_hash": "8e9198313a732f580289ab50fa3ba61b",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.0.md": {
+    "mtime": 1791495724.226182,
+    "ast_hash": "ec6d731266c59271e8e35013ef388656",
     "semantic_hash": ""
   }
 }

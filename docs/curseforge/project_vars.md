@@ -83,3 +83,9 @@ logo = imagen generada con el prompt dado en la sesión del 2026-09-28.
 6. `docs/curseforge/versions/<version>.md` (HTML) — release notes.
 7. Subir JAR: `powershell -File ../../../codex-docs/scripts/curseforge-upload.ps1` (desde este repo).
 8. Verificar con GET (Core API key).
+
+## Historial de subidas
+
+| Versión | Fecha | File ID | Notas |
+|---|---|---|---|
+| `1.0.0` | 2026-10-09 | `9102852` | Release. Decoración subterránea con majestic_core beta.11 (required). Sin probar in-game. |
