@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1]
+
+### Changed
+- NeoForge bumped 21.1.249 → 21.1.259. New branch `minecraft/1.21.1/neoforge-21.1.259/production`.
+  No content changes: same four towers, same dungeon layouts, same loot and guardians.
+
 ## [1.0.0]
 
 First stable release.

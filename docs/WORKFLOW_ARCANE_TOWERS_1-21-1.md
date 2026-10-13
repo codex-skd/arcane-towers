@@ -14,8 +14,8 @@
 | **Clase principal** | `com.skd.arcanetowers.ArcaneTowers` |
 | **Display name** | `Arcane Towers` |
 | **Versión Minecraft** | `1.21.1` |
-| **Versión NeoForge** | `21.1.249` |
-| **Rama de trabajo** | `minecraft/1.21.1/neoforge-21.1.249/production` (única) |
+| **Versión NeoForge** | `21.1.259` |
+| **Rama de trabajo** | `minecraft/1.21.1/neoforge-21.1.259/production` (única) |
 | **Repositorio GitLab** | `https://gitlab.com/stalking-dragons/minecraft/arcane-towers.git` — **privado** (pendiente de crear en la web) |
 | **Paquete base** | `com.skd.arcanetowers` |
 | **Licencia** | **All Rights Reserved** |
@@ -55,7 +55,7 @@ En desarrollo las librerías SKD se consumen como `compileOnly files("libs/<jar>
 
 | Rama | Propósito |
 |---|---|
-| `minecraft/1.21.1/neoforge-21.1.249/production` | **Rama única.** Repo privado, todo el trabajo aquí. |
+| `minecraft/1.21.1/neoforge-21.1.259/production` | **Rama única.** Repo privado, todo el trabajo aquí. |
 
 - **No hay rama `main` ni espejo público** (a diferencia de las 3 librerías, que sí lo tienen).
 - **No hay `.gitlab-ci.yml` de mirror.** Se puede añadir un CI de build/test más adelante; no publica nada.
@@ -115,7 +115,7 @@ Cerrar los mensajes de commit con:
 **1. Desarrollo**
 
 ```bash
-git checkout minecraft/1.21.1/neoforge-21.1.249/production
+git checkout minecraft/1.21.1/neoforge-21.1.259/production
 # refrescar libs/ con el jar construido de expedition_core si cambió
 ./gradlew.bat runData    # regenerar el contenido datagen
 ./gradlew.bat build

@@ -1,16 +1,16 @@
-# Graph Report - 1.21.1  (2026-10-09)
+# Graph Report - 1.21.1  (2026-10-13)
 
 ## Corpus Check
-- 99 files · ~116,197 words
+- 100 files · ~116,318 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 246 nodes · 385 edges · 27 communities (26 shown, 1 thin omitted)
+- 250 nodes · 388 edges · 28 communities (27 shown, 1 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 3 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e26d342b`
+- Built from commit: `10d84384`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -36,8 +36,8 @@
 1. `ExitStoneBlock` - 27 edges
 2. `Flujo de trabajo — Arcane Towers (NeoForge)` - 13 edges
 3. `GuardianSpawnEvents` - 11 edges
-4. `Changelog` - 10 edges
-5. `CurseForge — Variables del proyecto` - 10 edges
+4. `Changelog` - 11 edges
+5. `CurseForge — Variables del proyecto` - 11 edges
 6. `ModBlocks` - 9 edges
 7. `GuardianData` - 8 edges
 8. `Located` - 7 edges
@@ -51,23 +51,23 @@
 ## Import Cycles
 - None detected.
 
-## Communities (27 total, 1 thin omitted)
+## Communities (28 total, 1 thin omitted)
 
 ### Community 0 - "Guardian Events"
 Cohesion: 0.19
 Nodes (14): EntityType, Mob, Post, ResourceLocation, GuardianSpawnEvents, BlockPos, BoundingBox, Player (+6 more)
 
 ### Community 1 - "Mod Blocks"
-Cohesion: 0.16
-Nodes (13): BlockItem, Blocks, CreativeModeTab, DeferredBlock, DeferredHolder, DeferredItem, DeferredRegister, Items (+5 more)
+Cohesion: 0.17
+Nodes (12): BlockItem, Blocks, CreativeModeTab, DeferredBlock, DeferredHolder, DeferredItem, DeferredRegister, Items (+4 more)
 
 ### Community 2 - "Project Info"
 Cohesion: 0.14
 Nodes (14): api_tokens, branch, client_server_env, dependencies, exit_stone_runes_texture, exit_stone_texture, game_versions_ids, icon (+6 more)
 
 ### Community 3 - "Block Properties"
-Cohesion: 0.11
-Nodes (30): Block, BlockGetter, BlockHitResult, BlockPlaceContext, BlockState, Builder, CollisionContext, Direction (+22 more)
+Cohesion: 0.10
+Nodes (31): Block, BlockGetter, BlockHitResult, BlockPlaceContext, BlockState, Builder, CollisionContext, Direction (+23 more)
 
 ### Community 4 - "Guardian Data"
 Cohesion: 0.22
@@ -87,11 +87,11 @@ Nodes (7): Logger, Mod, ModContainer, ArcaneTowers, IEventBus, ResourceKey, Stru
 
 ### Community 8 - "Block Interaction"
 Cohesion: 0.08
-Nodes (23): [0.0.0], [0.0.0-beta.1], [0.0.0-beta.2], [0.0.0-beta.3], [0.0.0-beta.4], [0.0.0-beta.5], [0.0.0-beta.6], [0.0.0-beta.7] (+15 more)
+Nodes (25): [0.0.0], [0.0.0-beta.1], [0.0.0-beta.2], [0.0.0-beta.3], [0.0.0-beta.4], [0.0.0-beta.5], [0.0.0-beta.6], [0.0.0-beta.7] (+17 more)
 
 ### Community 9 - "Tower Location"
-Cohesion: 0.17
-Nodes (11): CurseForge — Variables del proyecto, Descripción del proyecto y logo, Entorno "Client & Server", Flujo completo (primera vez), IDs de `gameVersions` para 1.21.1 (verificados, mismos que el resto de mods 1.21.1 del workspace), Proyecto, Rama, Relaciones (dependencias declaradas en CurseForge) (+3 more)
+Cohesion: 0.15
+Nodes (12): CurseForge — Variables del proyecto, Descripción del proyecto y logo, Entorno "Client & Server", Flujo completo (primera vez), Historial de subidas, IDs de `gameVersions` para 1.21.1 (verificados, mismos que el resto de mods 1.21.1 del workspace), Proyecto, Rama (+4 more)
 
 ### Community 10 - "Build Tools"
 Cohesion: 0.83
@@ -114,7 +114,7 @@ Cohesion: 0.67
 Nodes (3): main(), pick(), Swap decorative blocks in the underground pieces for majestic_core ones.  Only
 
 ## Knowledge Gaps
-- **54 isolated node(s):** `Workflow del mod`, `Recordatorios específicos`, `Prioridad de instrucciones`, `Added`, `Notes` (+49 more)
+- **56 isolated node(s):** `Workflow del mod`, `Recordatorios específicos`, `Prioridad de instrucciones`, `Changed`, `Added` (+51 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -122,16 +122,16 @@ Nodes (3): main(), pick(), Swap decorative blocks in the underground pieces for 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `ExitStoneBlock` connect `Block Properties` to `Mod Blocks`?**
-  _High betweenness centrality (0.043) - this node is a cross-community bridge._
+  _High betweenness centrality (0.041) - this node is a cross-community bridge._
 - **Why does `ModBlocks` connect `Mod Blocks` to `Block Properties`?**
-  _High betweenness centrality (0.024) - this node is a cross-community bridge._
+  _High betweenness centrality (0.023) - this node is a cross-community bridge._
 - **What connects `Swap decorative blocks in the underground pieces for majestic_core ones.  Only`, `Workflow del mod`, `Recordatorios específicos` to the rest of the system?**
-  _55 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _57 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Project Info` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
 - **Should `Block Properties` be split into smaller, more focused modules?**
-  _Cohesion score 0.10588235294117647 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1033182503770739 - nodes in this community are weakly interconnected._
 - **Should `Exit Stone` be split into smaller, more focused modules?**
   _Cohesion score 0.06896551724137931 - nodes in this community are weakly interconnected._
 - **Should `Block Interaction` be split into smaller, more focused modules?**
-  _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._

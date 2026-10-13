@@ -405,13 +405,13 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1791496021.1199365,
-    "ast_hash": "7bb3b2e376da4ae2ab52cf7d0ffb424e",
+    "mtime": 1791895072.055386,
+    "ast_hash": "99cbb3c100c837aa6c8e240061217181",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1791495724.1623635,
-    "ast_hash": "3022d86eefae91a21392000b63047196",
+    "mtime": 1791895035.9914522,
+    "ast_hash": "70fc85ff63d2a5c9a71f054b19e6486a",
     "semantic_hash": ""
   },
   "docs/ARCANE_TOWERS_TALLER_GUIDE.md": {
@@ -435,18 +435,18 @@
     "semantic_hash": ""
   },
   "docs/WORKFLOW_ARCANE_TOWERS_1-21-1.md": {
-    "mtime": 1791495724.2112608,
-    "ast_hash": "69c38bca9546f4b1f3c28dff6f8de8d9",
+    "mtime": 1791895039.5727491,
+    "ast_hash": "6fc991a6174daaf4c886df8ec03ff70a",
     "semantic_hash": ""
   },
   "docs/curseforge/project_description.md": {
-    "mtime": 1791495854.1385746,
-    "ast_hash": "dafff04130e5fa2e4970404eed941cd3",
+    "mtime": 1791895065.2068174,
+    "ast_hash": "56ac182e78a4db028ddeab1754363d17",
     "semantic_hash": ""
   },
   "docs/curseforge/project_vars.md": {
-    "mtime": 1791495854.1257625,
-    "ast_hash": "e3e9701d5cc28d53e669aad16c0741c3",
+    "mtime": 1791895067.087041,
+    "ast_hash": "f031413310df726e3b41cbcc8af4fb3d",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/0.0.0-beta.1.md": {
@@ -512,6 +512,11 @@
   "docs/curseforge/versions/1.0.0.md": {
     "mtime": 1791495724.226182,
     "ast_hash": "ec6d731266c59271e8e35013ef388656",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/1.0.1.md": {
+    "mtime": 1791895072.101888,
+    "ast_hash": "ccf2b6c43ada0bd13e7f550cc4df7535",
     "semantic_hash": ""
   }
 }

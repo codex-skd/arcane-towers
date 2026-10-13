@@ -32,7 +32,7 @@ Autenticación Upload: cabecera `X-Api-Token`. Core: cabecera `x-api-key`.
 | Variable | Valor |
 |----------|-------|
 | `minecraft_version` | `1.21.1` |
-| `neoforge_version` (loader) | `21.1.249` |
+| `neoforge_version` (loader) | `21.1.259` |
 | `framework` | `neoforge` |
 | `java_version` | `21` |
 | `version` (`gradle.properties`) | `0.0.0-beta.2` |
@@ -41,7 +41,7 @@ Autenticación Upload: cabecera `X-Api-Token`. Core: cabecera `x-api-key`.
 ## Rama
 
 ```
-minecraft/1.21.1/neoforge-21.1.249/production
+minecraft/1.21.1/neoforge-21.1.259/production
 ```
 
 ## Tag
