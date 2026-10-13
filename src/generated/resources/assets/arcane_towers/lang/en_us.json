@@ -1,0 +1,12 @@
+{
+  "arcane_towers.exit_stone.inert": "The stone is silent here.",
+  "arcane_towers.exit_stone.used": "The Exit Stone carries you back to the surface.",
+  "arcane_towers.guardian.awakens": "The guardian of the tower awakens!",
+  "arcane_towers.guardian.frost_tower": "Guardian of the Frost",
+  "arcane_towers.guardian.sandstone_tower": "Guardian of the Sands",
+  "arcane_towers.guardian.stone_tower": "Guardian of the Arcane Stone",
+  "arcane_towers.guardian.umbral_tower": "Guardian of the Umbra",
+  "arcane_towers.tower.unsealed": "The tower's seal is broken.",
+  "block.arcane_towers.exit_stone": "Exit Stone",
+  "itemGroup.arcane_towers.arcane_towers": "Arcane Towers"
+}

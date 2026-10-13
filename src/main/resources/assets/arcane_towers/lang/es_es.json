@@ -1,0 +1,12 @@
+{
+  "block.arcane_towers.exit_stone": "Piedra de salida",
+  "itemGroup.arcane_towers.arcane_towers": "Arcane Towers",
+  "arcane_towers.exit_stone.inert": "La piedra guarda silencio aquí.",
+  "arcane_towers.exit_stone.used": "La Piedra de salida te devuelve a la superficie.",
+  "arcane_towers.tower.unsealed": "El sello de la torre se ha roto.",
+  "arcane_towers.guardian.awakens": "¡El guardián de la torre despierta!",
+  "arcane_towers.guardian.stone_tower": "Guardián de la Piedra Arcana",
+  "arcane_towers.guardian.frost_tower": "Guardián de la Escarcha",
+  "arcane_towers.guardian.sandstone_tower": "Guardián de las Arenas",
+  "arcane_towers.guardian.umbral_tower": "Guardián de la Umbría"
+}

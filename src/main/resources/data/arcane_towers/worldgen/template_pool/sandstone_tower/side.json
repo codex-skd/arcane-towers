@@ -1,0 +1,23 @@
+{
+  "fallback": "arcane_towers:sandstone_tower/dead_ends",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcane_towers:sandstone_tower/side_room_a",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "arcane_towers:sandstone_tower/side_room_b",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ]
+}

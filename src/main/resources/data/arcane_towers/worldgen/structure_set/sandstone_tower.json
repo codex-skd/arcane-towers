@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "arcane_towers:sandstone_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "expedition_core:isolated_spread",
+    "salt": 739104524,
+    "spacing": 40,
+    "separation": 14,
+    "isolation_chunks": 8
+  }
+}
