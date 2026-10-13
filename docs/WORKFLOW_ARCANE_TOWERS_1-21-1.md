@@ -89,7 +89,7 @@ arcane_towers/neoforge/1.21.1/
 | Release estable | `X.Y.Z` (SemVer) | `1.0.0` |
 
 - Incrementar en cada commit funcional y al preparar subida a CurseForge; se define en `gradle.properties` (`mod_version`).
-- JAR: `arcane_towers-1.21.1-neoforge-21.1.249-<mod_version>.jar` (`base.archivesName`).
+- JAR: `arcane_towers-1.21.1-neoforge-21.1.259-<mod_version>.jar` (`base.archivesName`).
 
 ## Commits (Conventional Commits)
 
