@@ -55,10 +55,10 @@ En desarrollo las librerías SKD se consumen como `compileOnly files("libs/<jar>
 
 | Rama | Propósito |
 |---|---|
-| `minecraft/1.21.1/neoforge-21.1.259/production` | **Rama única.** Repo privado, todo el trabajo aquí. |
+| `minecraft/1.21.1/neoforge-21.1.259/production` | **Rama de trabajo**. Todo el trabajo aquí. |
+| `minecraft/1.21.1/neoforge-21.1.259/main` | Espejo de `production`. Existe siempre, la genere la CI o se cree a mano. |
 
-- **No hay rama `main` ni espejo público** (a diferencia de las 3 librerías, que sí lo tienen).
-- **No hay `.gitlab-ci.yml` de mirror.** Se puede añadir un CI de build/test más adelante; no publica nada.
+- **No hay `.gitlab-ci.yml` de mirror**: `main` se crea/actualiza a mano desde `production` (mismo contenido; el repo es privado, no hace falta sanear).
 - Localmente `arcane_towers/neoforge/1.21.1/` es un clon independiente con su propio `.git/`, en `production`.
 
 ## Estructura del proyecto
